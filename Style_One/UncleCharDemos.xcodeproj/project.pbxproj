@@ -521,7 +521,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/xhl/Desktop/UncleCharDemos/UncleCharDemos/UncleChar.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UncleCharDemos/UncleChar.pch";
 				INFOPLIST_FILE = UncleCharDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -535,7 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/xhl/Desktop/UncleCharDemos/UncleCharDemos/UncleChar.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UncleCharDemos/UncleChar.pch";
 				INFOPLIST_FILE = UncleCharDemos/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -611,6 +611,7 @@
 				DB167AC21C2D734200AE61DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB167AC31C2D734200AE61DB /* Build configuration list for PBXNativeTarget "UncleCharDemosTests" */ = {
 			isa = XCConfigurationList;
@@ -619,6 +620,7 @@
 				DB167AC51C2D734200AE61DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB167AC61C2D734200AE61DB /* Build configuration list for PBXNativeTarget "UncleCharDemosUITests" */ = {
 			isa = XCConfigurationList;
@@ -627,6 +629,7 @@
 				DB167AC81C2D734200AE61DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
